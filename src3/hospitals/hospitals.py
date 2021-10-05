@@ -197,3 +197,4 @@ for i in range(15):
 
 # Use local search to determine hospital placement
 hospitals = s.hill_climb(image_prefix="hospitals", log=True)
+# hospitals = s.random_restart(20, image_prefix="hospitals", log=True)
